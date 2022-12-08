@@ -2,7 +2,7 @@
 I have applied the K-Nearest Neighbours algorithm. K-NN is a supervised multi-class classifier model. While building the K-NN model we have to be careful in data cleaning, outlier treatment and data should be normalized.
 
 **Objective:** 
-- Let's say that new animals are going to be added to the zoo, but we want to know to **_Class_** they belong. As a result, we employ the K-NN algorithm for this identification since it relies on similarity metrics. The K-NN model will look for the traits in the new datasets that are comparable to those of the animals currently in the zoo, and based on those features, it will classify the animals into the appropriate group.
+- Let's say that new animals are going to be added to the zoo, but we want to know to which **_Class_** they belong. As a result, we employ the K-NN algorithm for this identification since it relies on similarity metrics. The K-NN model will look for the traits in the new datasets that are comparable to those of the animals currently in the zoo, and based on those features, it will classify the animals into the appropriate group.
 
 **Outline of the dataset.**
 
