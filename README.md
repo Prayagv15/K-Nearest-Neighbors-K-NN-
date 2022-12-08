@@ -12,7 +12,7 @@ I have applied the K-Nearest Neighbours algorithm. K-NN is a supervised multi-cl
 
 **Tools used for testing the model accuracy.**
 
-* I have applied GridSearchCV for hyperparameter tuning and selecting the best estimator with an optimal score. The metric is Minkowski’s inequality with p=2 which is equivalent to Euclidean distance for n-dimensional space.
+* I have applied GridSearchCV for hyperparameter tuning and selecting the best estimator with an optimal score. The metric is Minkowski’s inequality with p=2 which is equivalent to Euclidean distance.
 * I have plotted the plots for accuracy results and error rates.
 * The model accuracy is very good for the lower values of K and as the value increases the accuracy goes on decreasing. Also, the error rate increases with higher values of K.
         After hyperparameter tuning, the optimal value of K is 3.
