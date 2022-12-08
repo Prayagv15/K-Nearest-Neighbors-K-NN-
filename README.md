@@ -2,20 +2,18 @@
 I have applied the K-Nearest Neighbours algorithm. K-NN is a supervised multi-class classifier model. While building the K-NN model we have to be careful in data cleaning, outlier treatment and data should be normalized.
 
 **Objective:** 
-- Let's say that new animals are going to be added to the zoo, but we want to know to *_Class_* they belong. As a result, we employ the K-NN algorithm for this identification since it relies on similarity metrics. The K-NN model will look for the traits in the new datasets that are comparable to those of the animals currently in the zoo, and based on those features, it will classify the animals into the appropriate group.
+- Let's say that new animals are going to be added to the zoo, but we want to know to **_Class_** they belong. As a result, we employ the K-NN algorithm for this identification since it relies on similarity metrics. The K-NN model will look for the traits in the new datasets that are comparable to those of the animals currently in the zoo, and based on those features, it will classify the animals into the appropriate group.
 
 **Outline of the dataset.**
 
 * The dataset consists of 101 animals from the zoo.
-* There are various characteristics to describe the animal.
-    All the characteristics, except legs are classified as binary values (1-Present/0-Absent). Except for legs which it is given as a count of legs for a particular         animal.
-* There are 7 class types.
+* There are various characteristics to describe the animal. All the characteristics, except legs are classified as binary values (1-Present/0-Absent). Except for legs which is given as a count of legs for a particular animal.
+* There are 7 different **_Classes_**.
 
-**Tools used for testing the model accuracy.**
+**Instruments for evaluating the model's accuracy**
 
 * In order to tune the hyperparameters, I used *GridSearchCV*, and I chose the best estimator with the highest possible score. The metric, is Euclidean distance according to Minkowski's inequality with p=2.
 * I have plotted the plots for accuracy results and error rates.
-
 
 **The observations are as follows:**
 
