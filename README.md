@@ -19,7 +19,7 @@ I have applied the K-Nearest Neighbours algorithm. K-NN is a supervised multi-cl
 **The observations are as follows:**
 
 * The model accuracy is very good for the lower values of K and as the value increases the accuracy goes on *decreasing*. Also, the error rate *increases* with higher values of K. 
-> After hyperparameter tuning, the optimal value of *K* is 3.
+"\t" After hyperparameter tuning, the optimal value of *K* is 3.
 * The *accuracy* of the model was determined to be *94%* during the performance evaluation.
 * From the classification report, we observe *precision* and *recall* scores for each **Class**.
 * The *confusion matrix* makes it crystal clear why the accuracy isn't 100% because some of the animals are markered into a different *Class*.
